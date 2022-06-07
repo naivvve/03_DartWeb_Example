@@ -3,7 +3,7 @@ import 'dart:js';
 
 void main(List<String> args) {
   DivElement dartStatus = querySelector('#dart-status') as DivElement;
-  dartStatus.text = 'Here is how much people like the menu！';
+  dartStatus.text = 'Here is how much people like the menu ！';
 
   var myData = JsObject.jsify([
     {'menu': '板栗炖鸡', 'number': 6},
